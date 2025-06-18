@@ -46,27 +46,13 @@ function createBall(scene) {
 // === END animation (2).js ===
 
 // === BEGIN ui (1).js ===
-import {
-  loadAndAnimatePitch,
-  setTrailVisibility,
-  pauseAnimation,
-  replayAnimation
-} from './animation.js';
 
-export // Removed duplicate setupUI
+// Removed duplicate setupUI
 
 // === END ui (1).js ===
 
 // === BEGIN main (47).js ===
 // Removed import
-// Removed import
-import {
-  loadAndAnimatePitch,
-  replayAnimation,
-  pauseAnimation,
-  setTrailVisibility,
-  clearAllBalls
-} from './animation.js';
 
 let sceneObjects;
 
