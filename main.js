@@ -1,17 +1,3 @@
-// Removed ES module import for THREE
-
-// === BEGIN scene (1).js ===
-// scene.js
-
-
-// Removed duplicate initScene
-
-// === END scene (1).js ===
-
-// === BEGIN animation (2).js ===
-
-
-
 let activeBall = null;
 let trailDots = [];
 let animationFrame;
@@ -30,30 +16,6 @@ function createBall(scene) {
   scene.add(ball);
   return ball;
 }
-
-// Removed duplicate setTrailVisibility
-
-// Removed duplicate pauseAnimation
-
-// Removed duplicate clearAllBalls
-
-// Removed duplicate replayAnimation
-
-// Removed duplicate loadAndAnimatePitch
-
-// Removed export statement
-
-// === END animation (2).js ===
-
-// === BEGIN ui (1).js ===
-
-// Removed duplicate setupUI
-
-// === END ui (1).js ===
-
-// === BEGIN main (47).js ===
-// Removed import
-
 let sceneObjects;
 
 window.addEventListener('DOMContentLoaded', () => {
@@ -68,8 +30,6 @@ window.addEventListener('DOMContentLoaded', () => {
     sceneObjects
   });
 });
-
-// === END main (47).js ===
 
 // === SAFE ANIMATION FUNCTIONS ===
 
@@ -148,8 +108,6 @@ function clearAllBalls(scene) {
   clearTrail(scene);
   pauseAnimation();
 }
-
-// === CLEAN INITSCENE ===
 
 // PRIMARY FUNCTION
 function initScene() {
@@ -252,8 +210,6 @@ function initScene() {
 
   return { scene, camera, renderer };
 }
-
-// === CLEAN SETUPUI ===
 
 // PRIMARY FUNCTION
 function setupUI({
