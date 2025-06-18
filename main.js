@@ -4,7 +4,7 @@
 // scene.js
 
 
-export // Removed duplicate initScene
+// Removed duplicate initScene
 
 // === END scene (1).js ===
 
